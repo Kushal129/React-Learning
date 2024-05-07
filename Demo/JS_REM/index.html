@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA script</title>
+    <script>
+        let a = 129;
+        console.log(a);
+        Number
+        Object
+        Boolean
+        String
+        undefined
+        null
+
+        function hello() {
+            console.log("Hello Word");
+        }
+        let obj = {
+            r: 10,
+            b: 20,
+
+            func: function myf(num) {
+                res = num + num
+                console.log("THIS IS A NUMBER " + res);
+            }
+        }
+        document.addEventListener("click", function click() {
+            console.log("HKN click thyou ho ");
+            // alert("karu ho baki ")
+            let conf = confirm("PAku ?? ");
+            console.log(conf);
+        })
+        
+        
+        let moj ={
+            a: this,
+            myfunc : function(num){
+                console.log(this)
+            }
+        }
+        moj.myfunc();
+        console.log(moj.a);
+
+
+        setTimeout(() => {
+            console.log("Nice..!!")
+
+        },3000)
+        console.log("Wait ho ave hmna ");
+    </script>
+</head>
+
+<body>
+    <h1>Kushal Pipaliya</h1>
+</body>
+
+</html>
